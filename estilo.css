@@ -1,0 +1,111 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-image: url(fundodiv2.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+#conteudo {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    border: solid 5px rgb(81, 171, 231);
+    width: 80%;
+    height: 75%;
+    margin-top: 7%;
+    margin-left: 10%;
+    position: relative;
+    box-shadow: 0 0 10px 10px;
+}
+
+h1 {
+    color: rgb(5, 65, 88);
+}
+
+.divs {
+    flex:1;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+a {
+    margin-bottom: 4%;
+    margin-left: 6%;
+    pointer-events: visible;
+}
+
+a:hover {
+    transform: scale(2);
+}
+
+.infors {
+    vertical-align: top;
+    display:flex;
+    flex-direction: row;
+    top: auto;
+}
+
+img {
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+
+#info {
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+#form {
+    height: 100%;
+    width: 60%;
+    margin-top: 0;
+    background-color: rgb(124, 219, 248);
+}
+
+input, textarea, label {
+    font-size: 1.5rem;
+    padding: 2%;
+}
+
+input, textarea {
+    width: 80%;
+    font-size: 1.2rem;
+    margin-top: 2%;
+}
+
+button {
+    font-size: 1.8rem;
+    padding: 2%;
+    border-radius: 10%;
+    border: none;
+    box-shadow: 0 0 5px 5px rgb(92, 222, 226);
+    color: white;
+    cursor: pointer;
+    margin-left: 35%;
+    margin-top: 5%;
+    background-color: rgb(5, 65, 88);
+}
+
+button:hover {
+    background-color: rgb(105, 13, 190);
+}
+
+form, h1, img {
+    margin-left: 7%;
+}
+
+h1 {
+    margin-bottom: 10%;
+    margin-top: 6%;
+}

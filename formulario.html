@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário de Contato</title>
+        <link rel="stylesheet" href="estilo.css">
+        <body>
+            <div class="divs" id="conteudo">
+                <div id="info">
+                <h1>Entre em contato conosco:</h1>
+                <div class="infors">
+                <img src="email.jpg" height="40px" width="40px">
+                <p>exemplo@hotmail.com</p>
+                </div>
+                <div class="infors">
+                <img src="endereco.jpg" height="40px" width="40px">
+                <p>Endereço físico da empresa</p>
+                </div>
+                <div class="infors">
+                <img src="whats.webp" height="60px" width="40px">
+                <p>(00) 90000-0000</p>
+                </div>
+                <h1>Conheça nossos canais:</h3>
+                <div class="redes">
+                    <a href="https://instagram.com">
+                    <img src="instagram.jpg" height="60px" width="60px">
+                    </a>
+                    <a href="">
+                    <img src="whats.webp" height="60px" width="60px">
+                    </a>
+                    <a href="">
+                    <img src="twitter.jpg" height="60px" width="60px">
+                    </a>
+                    <a href="">
+                    <img src="facebook.jpg" height="60px" width="60px">
+                    </a>
+                    <a href="">
+                    <img src="linkdin.jpg" height="60px" width="60px">
+                    </a>
+                    <a href="">
+                        <img src="hotmail.webp" height="60px" width="60px">
+                    </a>
+                </div>
+                </div>
+                <div class="divs" id="form">
+                    <h1>Ou mande-nos uma mensagem:</h1>
+                <form action="/enviar" method="post">
+                <label for="nome">Nome:</label>
+                <br><br>
+                <input type="text" id="nome" name="nome" required minlength="3">
+                <br><br>
+                <label for="email">E-mail:</label>
+                <br><br>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label type="mensagem">Mensagem:</label>
+                <br><br>
+                <textarea id="mensagem" name="mensagem" required minlength="10" maxlength="500"></textarea>
+                <br><br>
+                <button type="submit">Enviar</button>
+                </form>
+                </div>   
+            </div>
+        </body>
+    </head>
+</html>
