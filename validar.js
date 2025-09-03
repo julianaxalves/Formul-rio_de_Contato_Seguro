@@ -13,5 +13,4 @@ form.addEventListener("submit", function(event) {
         mensagem: mensagem
     };
 
-    console.log(dados);
 });
